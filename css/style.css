@@ -178,4 +178,27 @@ form > button {
     display: flex;
     margin: auto;
 }
-
+.content2-btn {
+    width: 500px;
+    background-color: #3ac4d2;
+    margin: 30px 0;
+}
+/* content3 */
+.content3-wrap1 {
+    display: flex;
+    justify-content: center ;
+}
+.content3-wrap2 {
+    display: flex;
+    justify-content: center ;
+} 
+.page {
+    display: flex;
+    justify-content: center;
+}
+.content3-wrap2-p {
+    text-align: center;
+}
+.h1 {
+    text-align: center;
+}
