@@ -184,6 +184,9 @@ form > button {
     margin: 30px 0;
 }
 /* content3 */
+.content3 {
+    margin-bottom: 50px;
+}
 .content3-wrap1 {
     display: flex;
     justify-content: center ;
@@ -193,12 +196,38 @@ form > button {
     justify-content: center ;
 } 
 .page {
-    display: flex;
-    justify-content: center;
+    display: block;
+    margin: auto;
+    margin-bottom: 30px;
 }
 .content3-wrap2-p {
     text-align: center;
 }
 .h1 {
     text-align: center;
+}
+.content3-btn {
+    width: 500px;
+    background-color: #48447e;
+    display: block;
+    margin: auto;
+}
+/* Footer */
+.footer {
+    background-color: #f5f4f9;
+}
+.footer_list {
+    list-style: none;
+    font-size: 1.4rem;
+}
+.li-active {
+    color: #3c3775;
+    font-weight: 600;
+}
+.footer-icon {
+    font-size: 1.4rem;
+    margin-right: 10px;
+}
+.footer-p{
+    font-size: 1.4rem;
 }
