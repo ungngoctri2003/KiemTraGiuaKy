@@ -56,7 +56,7 @@ header >img {
 /* header__content */
 .header__content {
     padding-top: 60px;
-    padding-left: 54px;
+    padding-left: 150px;
 }
 .header__content-wrap {
     display: flex;
@@ -104,4 +104,77 @@ form > button {
     font-size: 1.9rem;
     color: #fff;
     margin-left: 20px;
+}
+/* content1_container */
+.content1 {
+    padding-bottom: 80px;
+}
+.content1__img {
+    display: flex;
+    margin: auto;
+}
+.content1_container {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.content1_container-wrap {
+    margin-left: 20px;
+}
+.p-active {
+    font-size: 1.4rem;
+    color: #000;
+    font-weight: 600;
+}
+.p-no-active {
+    font-size: 1.4rem;
+}
+.content1_container-wrap > ul >li {
+    font-size: 1.4rem;
+}
+.btn-active {
+    background-color: #fff;
+    border: 1px solid #3c3775;
+    color: #3c3775;
+    font-weight: 600;
+}
+.content1_container-icon1 {
+    font-size: 6rem;
+    position: absolute;
+    top: 108px;
+    left: 86px;
+}
+.content1_container-icon2 {
+    font-size: 6rem;
+    position: absolute;
+    top: 108px;
+    right: 86px;
+}
+/* content2 */
+.content2 {
+    width: 100%;
+    background-color: #3c3775;
+}
+.content2-wrap1 {
+    display: flex;
+    justify-content: center ;
+}
+.content2-wrap1-list1 {
+    margin-right: 125px;
+}
+.content2-wrap1-list1 >h2 {
+    text-align: center;
+    color: #fff;
+    font-weight: 300;
+}
+.content2-wrap1-list1 > p {
+    text-align: center;
+    color: #fff;
+    font-size: 1.4rem;
+    font-weight: 300;
+
+}
+.content2-wrap1-list1 >.img2 {
+    display: flex;
+    margin: auto;
 }
