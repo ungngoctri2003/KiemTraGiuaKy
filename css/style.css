@@ -215,10 +215,14 @@ form > button {
 /* Footer */
 .footer {
     background-color: #f5f4f9;
+    padding-bottom: 60px;
 }
 .footer_list {
     list-style: none;
     font-size: 1.4rem;
+}
+.footer_list > li {
+    margin-bottom: 15px;
 }
 .li-active {
     color: #3c3775;
@@ -228,6 +232,14 @@ form > button {
     font-size: 1.4rem;
     margin-right: 10px;
 }
-.footer-p{
+.footer__wrap {
+    display: flex;
+}
+.footer-p1{
     font-size: 1.4rem;
+    margin-left: 39px;
+}
+.footer-p2{
+    font-size: 1.4rem;
+    margin-left: 111px;
 }
